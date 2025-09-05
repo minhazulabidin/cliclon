@@ -1,17 +1,15 @@
 
 import logo from "../../../public/Logo.png";
-import { Typewriter, useTypewriter } from "react-simple-typewriter";
+import { useTypewriter } from "react-simple-typewriter";
 
 const MainHeader = () => {
-    // useTypewriter hook gives you the text being typed
     const [text] = useTypewriter({
-        words: ["Search for anything...", "Phones, Laptops, Gadgets"],
+        words: ["Search for anything...", "Phones", "Laptops", "Gadgets"],
         loop: true,
         typeSpeed: 80,
         deleteSpeed: 50,
         delaySpeed: 2500,
     });
-
     return (
         <div className="bg-[#1B6392] py-5">
             <div className="flex justify-between items-center container m-auto gap-[176px]">

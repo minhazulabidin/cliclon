@@ -8,12 +8,12 @@ const MiddleHeader = () => {
         <div className=''>
           <span className='flex text-sm'>Follow Us:
             <ul className='flex ms-2 gap-3 text-base'>
-              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-reddit"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i className="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i className="fa-brands fa-pinterest-p"></i></a></li>
+              <li><a href="#"><i className="fa-brands fa-reddit"></i></a></li>
+              <li><a href="#"><i className="fa-brands fa-youtube"></i></a></li>
+              <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
             </ul>
           </span>
         </div>
