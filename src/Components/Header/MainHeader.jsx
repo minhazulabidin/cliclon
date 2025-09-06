@@ -1,5 +1,5 @@
 
-import logo from "../../../public/Logo.png";
+import logo from "/Logo.png";
 import { useTypewriter } from "react-simple-typewriter";
 
 const MainHeader = () => {
